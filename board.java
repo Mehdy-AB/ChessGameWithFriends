@@ -1,5 +1,6 @@
 public class board {
     public char[][] board=new char[8][8];
+    //creates a new from a "Forsyth–Edwards Notation" postion code 
     public board(String code){
         int i,j,k;
         i=0;j=7;
